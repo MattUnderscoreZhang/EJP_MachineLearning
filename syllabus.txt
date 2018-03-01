@@ -1,0 +1,63 @@
+Syllabus for course in introductory machine learning for EJP
+
+Week 1 - Introduction
+------
+What is machine learning, history of artificial intelligence, basic programming and math, types and applications of machine learning
+------
+Demonstrations:
+
+Week 2 - Basics
+------
+Linear regression, loss functions, function minimization, overfitting, polynomial functions, regularization, BDT, scikit-learn
+------
+Demonstrations:
+
+Week 3 (Project) - BDT classification task
+
+Week 4 - Neural nets
+------
+Perceptrons, neural nets, back propagation, training methods, activation functions, TensorFlow, Keras, PyTorch
+------
+Demonstrations: MNIST, image classification, OpenWorm, RoboRoach, visual cortex MRI reconstruction
+
+Week 5 (Project) - MNIST
+
+Week 6 - Convolutional neural nets
+------
+Image kernels, OpenCV, non-neural image analysis techniques, convolutional nets, GoogLeNet, ResNet
+------
+Demonstrations: edge finding, 2D to 3D conversion, Hyperlapse, image segmentation, crop sorting
+
+Week 7 (Project) - CIFAR 100
+
+Week 8 - Genetic algorithms
+------
+Genetic algorithms, biological modeling
+------
+Demonstrations: JPEG compression, Braitenberg vehicles, C. Elegans modeling, antenna evolution, Karl Sims
+
+Week 9 (Project) - genetic algorithm exercise
+
+Week 10 - Generative models
+------
+GAN
+------
+Demonstrations: context-aware image completion, DeepDream, face generation, DeepFakes, music generation
+
+Week 11 (Project) - MNIST GAN
+
+Week 12 - Time-dependant models
+------
+Recurrent neural nets, LSTM, natural language processing
+------
+Demonstrations: speech-to-text processing, machine translation, text comprehension, caption generation, document summarization
+
+Week 13 (Project) - voice identification
+
+Week 14 - Reinforcement learning
+------
+Reinforcement learning, attention mechanisms
+------
+Demonstrations: MarIO, DeepMind, self-driving car, speech generation
+
+Week 15 (Project) - OpenAI Gym PacMan
