@@ -2,15 +2,15 @@ Syllabus for course in introductory machine learning for EJP
 
 Week 1 - Introduction
 ------
-What is machine learning, history of artificial intelligence, basic programming and math, types and applications of machine learning
+What is machine learning, history of artificial intelligence, types and applications of machine learning, review of basic programming and math
 ------
-Demonstrations:
+Demonstrations: cancer detection, robotics (Boston Dynamics), face recognition, obstacle avoidance, game AI's, drone swarms, home assistants, etc.
 
-Week 2 - Basics
+Week 2 - Machine learning basics
 ------
 Linear regression, loss functions, function minimization, overfitting, polynomial functions, regularization, BDT, scikit-learn
 ------
-Demonstrations:
+Demonstrations: housing price predictor, automatic temperature control, Google Now
 
 Week 3 (Project) - BDT classification task
 
@@ -26,7 +26,7 @@ Week 6 - Convolutional neural nets
 ------
 Image kernels, OpenCV, non-neural image analysis techniques, convolutional nets, GoogLeNet, ResNet
 ------
-Demonstrations: edge finding, 2D to 3D conversion, Hyperlapse, image segmentation, crop sorting
+Demonstrations: edge finding, 2D to 3D conversion, Hyperlapse, image segmentation, crop sorting, assembly lines
 
 Week 7 (Project) - CIFAR 100
 
