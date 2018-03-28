@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import csv
 
-x1 = np.array([np.random.uniform(100) for i in range(100)])
-x2 = np.array([np.random.uniform(100) for i in range(100)])
-y_truth = 2*x1 + 8*np.exp(x2/25)
+x1 = np.array([np.random.uniform(100) for i in range(1000)])
+x2 = np.array([np.random.uniform(100) for i in range(1000)])
+y_truth = 2*x1 + 8*(x2+5)
 
-noise = np.array([np.random.normal(3) for i in range(100)])
+noise = np.array([np.random.normal(scale=3) for i in range(1000)])
 y = y_truth + noise
 
 fig = plt.figure()
