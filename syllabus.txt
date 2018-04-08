@@ -1,63 +1,95 @@
 Syllabus for course in introductory machine learning for EJP
 
-Week 1 - Introduction
+Week 1 
 ------
-What is machine learning, history of artificial intelligence, types and applications of machine learning, review of basic programming and math
-------
-Demonstrations: cancer detection, robotics (Boston Dynamics), face recognition, obstacle avoidance, game AI's, drone swarms, home assistants, etc.
+Lecture - What is machine learning; what is programming
+Lab - Using a terminal; making a simple program; if-else statements; for loops
+Bonus - Data structures exercises
 
-Week 2 - Machine learning basics
+Week 2 
 ------
-Linear regression, loss functions, function minimization, overfitting, polynomial functions, regularization, BDT, scikit-learn
-------
-Demonstrations: housing price predictor, automatic temperature control, Google Now
+Lecture - Generalized problem solving; what is a function; common functions (linear, polynomial, exponential)
+Lab - Write various functions for input-output pairs; plotting functions
+Bonus - Algorithm challenges
 
-Week 3 (Project) - BDT classification task
-
-Week 4 - Neural nets
+Week 3 
 ------
-Perceptrons, neural nets, back propagation, training methods, activation functions, TensorFlow, Keras, PyTorch
-------
-Demonstrations: MNIST, image classification, OpenWorm, RoboRoach, visual cortex MRI reconstruction
+Lecture - How machine learning works; loss function
+Lab - Manually alter parameters in linear function to fit points; same for more complex function
+Lecture - Function minimization; calculus; differentiation
+Lab - Differentiation practice
 
-Week 5 (Project) - MNIST
-
-Week 6 - Convolutional neural nets
+Week 4 
 ------
-Image kernels, OpenCV, non-neural image analysis techniques, convolutional nets, GoogLeNet, ResNet
-------
-Demonstrations: edge finding, 2D to 3D conversion, Hyperlapse, image segmentation, crop sorting, assembly lines
+Lecture - Gradient descent; learning rate; example with linear relation
+Lab - Practice with linear regression
+Lecture - Gradient descent; housing prices example
+Lab - Practice with polynomial regression (or other functions)
+Lecture - Gradient descent with multiple variables
+Lab - Continue with housing prices example
 
-Week 7 (Project) - CIFAR 100
-
-Week 8 - Genetic algorithms
+Week 5 
 ------
-Genetic algorithms, biological modeling
-------
-Demonstrations: JPEG compression, Braitenberg vehicles, C. Elegans modeling, antenna evolution, Karl Sims
+Lecture - Overfitting; test, train, validation; loss and accuracy curves
+Lab - Full analysis with sample splitting and analysis curves
 
-Week 9 (Project) - genetic algorithm exercise
-
-Week 10 - Generative models
+Week 6 
 ------
-GAN
-------
-Demonstrations: context-aware image completion, DeepDream, face generation, DeepFakes, music generation
+Lecture - Classification; logistic function; logistic regression
+Lab - Classification example; softmax function
+Lecture - Multi-class classification
+Lab - Example
 
-Week 11 (Project) - MNIST GAN
-
-Week 12 - Time-dependant models
+Week 7 
 ------
-Recurrent neural nets, LSTM, natural language processing
-------
-Demonstrations: speech-to-text processing, machine translation, text comprehension, caption generation, document summarization
+Lecture - Neural net; activation function
+Lab - Calculate a neuron value
+Lecture - Matrix multiplication
+Lab - Manually code simple one-layer neural net
 
-Week 13 (Project) - voice identification
-
-Week 14 - Reinforcement learning
+Week 8 
 ------
-Reinforcement learning, attention mechanisms
-------
-Demonstrations: MarIO, DeepMind, self-driving car, speech generation
+Lecture - Neural net gradient descent
+Lab - Manually code gradient descent
+Lecture - Tensorflow; Keras
+Lab - MNIST
+Bonus - Gradient descent algorithms
 
-Week 15 (Project) - OpenAI Gym PacMan
+Week 9 
+------
+Lecture - Image basics; Sobel operators
+Lab - Sobel operators
+Lecture - CNN
+Lab - CIFAR-10
+
+Week 10 
+------
+Lecture - AlexNet, GoogLeNet, ResNet
+Lab - CIFAR-10
+
+Week 11
+------
+Lecture - RNN
+Lab - Sentence analysis
+Lecture - LSTM
+Lab - Audio analysis
+
+Week 12 
+------
+Lecture - GAN
+Lab - MNIST GAN
+
+Week 13 
+------
+Lecture - Genetic algorithms
+Lab - GA problem
+
+Week 14 
+------
+Lecture - Reinforcement learning
+Lab - Pac-Man in OpenAI Gym
+
+Week 15 
+------
+Lecture - Further topics; how to read a scientific paper
+Lab - Reading scientific papers

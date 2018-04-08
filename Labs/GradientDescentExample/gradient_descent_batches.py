@@ -31,13 +31,15 @@ n_epochs = 500
 t1_grad = 0
 t2_grad = 0
 t3_grad = 0
+loss = 0
 
-for i in range(n_epochs):
+for epoch_n in range(n_epochs):
+    print("Epoch", epoch_n+1)
     for iteration_n, (x1, x2, y) in enumerate(zip(x1_list, x2_list, y_list)):
         # calculate output using model
         y_predicted = t1 * x1 + t2 * (x2 + t3)
         # calculate loss
-        loss = (y_predicted - y)**2
+        loss += (y_predicted - y)**2
         # find gradients
         t1_grad += 2*(y_predicted - y) * x1
         t2_grad += 2*(y_predicted - y) * (x2 + t3)
@@ -47,8 +49,9 @@ for i in range(n_epochs):
             t1 -= learning_rate * t1_grad / batch_size
             t2 -= learning_rate * t2_grad / batch_size
             t3 -= learning_rate * t3_grad / batch_size
+            # print to screen
+            print("Iteration", iteration_n+1, "- loss is", loss / batch_size, "- parameters are", t1, t2, t3)
             t1_grad = 0
             t2_grad = 0
             t3_grad = 0
-            # print to screen
-            print("Iteration", iteration_n+1, "- loss is", loss, "- parameters are", t1, t2, t3)
+            loss = 0
