@@ -8,8 +8,10 @@ Bonus - Data structures exercises
 
 Week 2 
 ------
-Lecture - Generalized problem solving; what is a function; common functions (linear, polynomial, exponential)
+Lecture - Generalized problem solving; what is a function
 Lab - Write various functions for input-output pairs; plotting functions
+Lecture - Common functions (linear, polynomial, exponential)
+Lab - Tuning parameters in a function
 Bonus - Algorithm challenges
 
 Week 3 
