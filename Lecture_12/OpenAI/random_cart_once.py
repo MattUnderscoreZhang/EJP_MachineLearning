@@ -1,5 +1,3 @@
-# Random actions in the cart pole environment
-
 import gym
 env = gym.make('CartPole-v0')
 env.reset()
