@@ -1,2 +1,6 @@
-Set up on Windows 10 with
-set path=C:\Users\Matt\Miniconda3\envs\py36;C:\Users\Matt\Miniconda3\envs\py36\Scripts
+1. Install Docker
+2. Copy Dockerfile to folder containing code notebooks
+    (folder should contain folders Lecture_01, Lecture_03, etc.)
+2. docker build -t ejp .
+3. docker run -p 8000:8888 ejp
+4. Open web browser and go to localhost:8000
