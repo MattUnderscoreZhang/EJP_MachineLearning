@@ -1,3 +1,0 @@
-1. Install Anaconda
-2. Use Anaconda version of Python to pip install packages (whl files downloaded via "python download <package>")
-3. Start Jupyter with Anaconda application
